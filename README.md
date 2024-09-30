@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/e53a1089-2cc1-4d19-95af-6beaefb5ba67)# Transfer-Learning-for-binary-classification
+# Transfer-Learning-for-binary-classification
 ## Aim
 To Implement Transfer Learning for Horses_vs_humans dataset classification using InceptionV3 architecture.
 ## Problem Statement and Dataset
@@ -80,7 +80,6 @@ for layer in pre_trained_model.layers:
 
 pre_trained_model.summary()
 # Write Your Code
-print('Name: Meetha Prabhu     Register Number: 212222240065')
 
 last_layer = pre_trained_model.get_layer('mixed7')
 print('last layer output shape: ', last_layer.output.shape)
@@ -262,19 +261,9 @@ plt.plot(epochs, val_loss, 'b', label='Validation Loss')
 plt.title('Training and validation Loss')
 plt.legend(loc=0)
 plt.figure()
-
-
 plt.show()
 
-
-
-
-
-
-
-
 ```
-
 
 ## OUTPUT
 ### Training Accuracy, Validation Accuracy Vs Iteration Plot
@@ -284,8 +273,7 @@ plt.show()
 ![image](https://github.com/user-attachments/assets/a208baab-03d8-464c-bf89-45e80bdb6022)
 
 ### Conclusion
-![image](https://github.com/user-attachments/assets/a90fc6e1-4fb0-4054-a7a9-8c2aa32a5714)
-
+![image](https://github.com/user-attachments/assets/a1b6c2c5-827a-48be-ad1b-17ef87844713)
 
 ## RESULT
 Thus, transfer learning for classifying horses and human is implemented successfully
